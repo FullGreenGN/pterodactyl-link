@@ -28,6 +28,8 @@ class PterodactylLinkServiceProvider extends BasePluginServiceProvider
      */
     public function boot(): void
     {
+        require __DIR__. '/../../vendor/autoload.php';
+
         // $this->registerPolicies();
 
         $this->loadViews();
