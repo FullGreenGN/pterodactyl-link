@@ -1,0 +1,15 @@
+{
+    "id": "pterodactyl-link",
+    "name": "Pterodactyl Link",
+    "description": "Link your Azuriom website with your Pterodactyl panel",
+    "version": "1.0.0",
+    "url": "https://azuriom.com",
+    "authors": [
+        "FullGreen.GN"
+    ],
+    "azuriom_api": "1.0.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\PterodactylLink\\Providers\\PterodactylLinkServiceProvider",
+        "\\Azuriom\\Plugin\\PterodactylLink\\Providers\\RouteServiceProvider"
+    ]
+}

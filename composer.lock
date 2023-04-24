@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "011753153873f0452f4a9f0c9383f483",
+    "packages": [
+        {
+            "name": "hcgcloud/pterodactyl-sdk",
+            "version": "v2.0.0-alpha.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hcgcloud/pterodactyl-sdk.git",
+                "reference": "8cce40ca79de0613d2ab10c727ba34b25accec3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hcgcloud/pterodactyl-sdk/zipball/8cce40ca79de0613d2ab10c727ba34b25accec3e",
+                "reference": "8cce40ca79de0613d2ab10c727ba34b25accec3e",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0|^7.0",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HCGCloud\\Pterodactyl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Trebilco",
+                    "email": "josh@fruitbytes.com"
+                },
+                {
+                    "name": "TLingC",
+                    "email": "my@tlingc.com"
+                }
+            ],
+            "description": "Pterodactyl PHP SDK",
+            "keywords": [
+                "php",
+                "pterodactyl",
+                "sdk"
+            ],
+            "support": {
+                "issues": "https://github.com/hcgcloud/pterodactyl-sdk/issues",
+                "source": "https://github.com/hcgcloud/pterodactyl-sdk/tree/v2.0.0-alpha.2"
+            },
+            "time": "2021-03-22T03:31:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hcgcloud/pterodactyl-sdk": 15
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
